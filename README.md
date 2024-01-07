@@ -1,39 +1,56 @@
-# My GitHub Projects
+# My GitHub C++ Projects
 
-## 1. Railway Demo
+## Simple C++ Time Tracker
 
-### Description
-The `railwaydemo` project is a C++ program that showcases a demo of railway-related functionality. It might include features such as train scheduling, ticket booking, or other railway-related simulations.
+This C++ program is a basic time tracker that allows users to input hours, minutes, and seconds. The program then displays and updates the time in a loop.
+
+### How to Use
+
+1. **Compile the Code:**
+   - Ensure you have a C++ compiler installed (e.g., g++, Visual Studio).
+   - Compile the code using the appropriate compiler command.
+
+## Railway Reservation System
+
+This C++ program implements a simple Railway Reservation System that allows administrators to manage train data and users to book, cancel, and view their train tickets. The system is designed with three user portals (User 1, User 2, User 3) and an Admin portal, each offering specific functionalities.
+
+### Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
 ### Features
-- [Feature 1]
-- [Feature 2]
-- ...
 
-### Usage
-Provide instructions on how to use or run the program.
+#### Admin Portal
+1. **Add Train Data:**
+   - Add multiple train entries with details such as train number, name, departure, time, coach's count, available seats, last station, and fare.
+2. **Delete Train Data:**
+   - Delete specific train data based on the train number.
+3. **Modify Train Data:**
+   - Modify various attributes of existing train data.
+4. **View Train Data:**
+   - View the list of available trains with detailed information.
 
-### How to Contribute
-If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your changes.
+#### User Portals
+1. **User 1, User 2, User 3:**
+   - Individual user portals with options for booking, cancellation, and viewing current tickets.
+2. **Booking:**
+   - Users can select a train, check available seats, and book a specified number of seats.
+3. **Cancellation:**
+   - Users can cancel a specified number of seats for a booked train.
+4. **Current Tickets:**
+   - Users can view their current bookings.
 
-## 2. Small Clock
+### Getting Started
 
-### Description
-The `small clock` project is a simple C++ program that functions as a small clock. It may display the current time, have alarm features, or other clock-related functionalities.
+#### Prerequisites
+- Ensure you have a C++ compiler installed on your system.
 
-### Features
-- [Feature 1]
-- [Feature 2]
-- ...
+#### Installation
+1. Clone the repository:
 
-### Usage
-Include information on how to use or run the small clock program.
-
-### How to Contribute
-Similar to the previous project, contributions are welcome. Fork the repository, make your changes, and submit a pull request.
-
-## More Projects Coming Soon!
-
-I am actively working on additional projects, and they will be added to my GitHub profile soon. Stay tuned for updates!
-
-
+   ```bash
+   git clone https://github.com/Sujal092004/Repositories/tree/63ce190cefe22bf75964d4551e84f3a2da4b820b/c%2B%2B%20program%20/railwaydemo.git
