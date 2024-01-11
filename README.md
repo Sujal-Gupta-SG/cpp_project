@@ -49,8 +49,4 @@ This C++ program implements a simple Railway Reservation System that allows admi
 #### Prerequisites
 - Ensure you have a C++ compiler installed on your system.
 
-#### Installation
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Sujal092004/Repositories/tree/63ce190cefe22bf75964d4551e84f3a2da4b820b/c%2B%2B%20program%20/railwaydemo.git
